@@ -1,0 +1,256 @@
+body {
+        font-family: raleway, Arial, sans-serif;
+        margin: auto;
+}
+
+main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+}
+
+.logo {
+    width: auto;
+    height: 60px;
+    border-top: 20px solid transparent;
+}
+
+ul {
+        list-style: none;
+        text-decoration: none;
+        flex-direction: right;
+}
+
+h1 {
+        font-size: 1.90em;
+}
+
+h2 {
+        font-size: 1.5em;
+}
+
+h3 {
+        font-size: 1.18em;
+}
+
+/*                  nav          */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+    }
+    
+nav ul li {
+        padding: 50px 25px;
+        border-top: 4px solid transparent;
+        margin: 0px 20px 0px 20px;
+}
+    
+nav ul li:hover {
+        border-color: blue;
+}
+    
+nav ul li a {
+        color: blue;
+        text-decoration: none;
+}
+    
+nav ul li:hover a {
+        color: blue;
+}
+
+/*            header             */
+
+header h1 p {
+        display: flex;
+        justify-content: left;
+        padding: 1px;
+}
+
+/*         barre de recherche         */
+
+.search {
+        display: inline-block;
+        border: 1px solid gray;
+        border-radius: 15px;
+        width: auto;
+}
+    
+.search .fa-location-dot {
+        display: inline-block;
+        padding: 14px;
+        height: 28px;
+        font-size: 25px;
+        background-color: rgb(226, 226, 226);
+        border-radius: 15px 0px 0px 15px;
+}
+    
+.search input {
+        outline: none;
+        height: 52px;
+        margin-left: -5px;
+        border: none;
+        padding: 10px;
+}
+    
+.search button {
+        background-color: blue;
+        color: white;
+        height: 52px;
+        border: none; 
+        border-radius: 0px 15px 15px 0px;
+        padding: 14px;
+        cursor: pointer;
+}    
+
+/*                 filtres               */
+
+.filtres {
+        display: flex;
+        align-items: center;
+}
+
+.filtres .design-filtre {
+        margin: 0px 10px;
+        border-radius: 30px;
+        border: 2px solid var(--grey);
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 1s;
+}
+
+.filtres h2 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.filtres ul {
+        display: flex;
+        flex-wrap: wrap; 
+        gap: 17px;
+}
+
+.filtres li {
+        display: flex;
+        align-items: center;
+        border: 10px solid gray;
+        border-radius: 100px;
+        border-left: #DEEBFF;  
+}
+
+
+.check-point {
+        display: flex;
+}
+    
+.check-point .fa-circle-info {
+        color: blue;
+        border: 1px solid rgb(229, 220, 220);
+        border-radius: 100%;
+        width: 25px;
+        height: 25px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+}
+
+/*............Hebergement...........*/
+
+.Hebergements-background {
+        background: rgb(214, 211, 211);
+        border-radius: 10px;
+        width: 50%; 
+        height: auto;  
+        margin: auto;
+        position: absolute;
+}
+
+.hebergement-card {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+article img {
+        margin-top: -15px;
+        width: 100%;
+        height: 110px;
+        border-radius: 20px 20px 0 0;
+        text-align: center;
+        object-fit: cover;
+}
+
+article h2 {
+        margin-left: 20px;
+        margin-bottom: 25px;
+}
+
+/*                populaire            */
+
+
+
+/*                activite            */
+
+
+.activite {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 60px;
+        height: 600px;
+    }
+
+.activite .max-card {
+        width: 23%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 25px;
+}
+
+.activite .max-card img {
+        width: 100%;
+        height: calc(100% - 67px);
+        object-fit: cover;
+        border-radius: 25px 25px 1px 1px red;
+}
+
+
+/*                footer             */
+
+footer {
+        display: flex;
+        background: #F2F2F2;
+        color: black;
+        width: 100%;
+        margin-top: auto;
+}
+
+footer ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        line-height: 25px;
+}
+
+footer li {
+        margin-right: 15px;
+}
+
+footer a {
+        text-decoration: none;
+        color: black;
+}
