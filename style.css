@@ -52,7 +52,7 @@ nav ul {
 nav ul li {
         padding: 50px 25px;
         border-top: 4px solid transparent;
-        margin: 0px 20px 0px 20px;
+        margin: 0 20px 0 20px;
 }
     
 nav ul li:hover {
@@ -91,7 +91,7 @@ header h1 p {
         height: 28px;
         font-size: 25px;
         background-color: rgb(226, 226, 226);
-        border-radius: 15px 0px 0px 15px;
+        border-radius: 15px 0 0 15px;
 }
     
 .search input {
@@ -107,7 +107,7 @@ header h1 p {
         color: white;
         height: 52px;
         border: none; 
-        border-radius: 0px 15px 15px 0px;
+        border-radius: 0 15px 15px 0;
         padding: 14px;
         cursor: pointer;
 }    
@@ -120,7 +120,7 @@ header h1 p {
 }
 
 .filtres .design-filtre {
-        margin: 0px 10px;
+        margin: 0 10px;
         border-radius: 30px;
         border: 2px solid var(--grey);
         display: flex;
@@ -201,6 +201,49 @@ article h2 {
 
 /*                populaire            */
 
+.container-populaire {
+        background: #F2F2F2;
+        border-radius: 20px;
+        display: flex;
+        width: auto; 
+        flex-direction: column;
+        margin: auto;
+        height: auto; 
+        justify-content: space-around;
+        position:relative;
+        top : 0; 
+        left: 400px;
+}
+
+.populaire-card {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px #c0c0c0;
+}
+
+.populaire-card {
+    width: 35%;
+    border-radius: 20px 0 0 20px;
+    height: 150px;
+    margin-top: 1px;
+    object-fit: cover;
+}
+
+.bloc_populaire figcaption {
+    height: auto;
+    width: auto;
+    border-radius: 0 20px 20px 0;
+    margin-left: 10px;
+    line-height: 15px;
+}
+
 
 
 /*                activite            */
@@ -225,7 +268,7 @@ article h2 {
         width: 100%;
         height: calc(100% - 67px);
         object-fit: cover;
-        border-radius: 25px 25px 1px 1px red;
+        border-radius: 25px 25px 1px 1px;
 }
 
 
