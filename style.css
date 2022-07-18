@@ -216,6 +216,9 @@ article h2 {
 }
 
 .populaire-card {
+    min-width: 280px;
+    height: 140px;
+    background-color:  #ffff;
     display: flex;
     flex-direction: row;
     width: auto;
@@ -224,16 +227,7 @@ article h2 {
     margin-right: auto;
     border: 3px solid #ffffff;
     border-radius: 20px;
-    border-radius: 20px;
     box-shadow: 0 4px 4px #c0c0c0;
-}
-
-.populaire-card {
-    width: 35%;
-    border-radius: 20px 0 0 20px;
-    height: 150px;
-    margin-top: 1px;
-    object-fit: cover;
 }
 
 .bloc_populaire figcaption {
@@ -244,10 +238,7 @@ article h2 {
     line-height: 15px;
 }
 
-
-
 /*                activite            */
-
 
 .activite {
         display: flex;
@@ -257,11 +248,20 @@ article h2 {
     }
 
 .activite .max-card {
-        width: 23%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         border-radius: 25px;
+}
+
+.activite .min-card {
+        min-width: 280px;
+        height: 140px;
+        background-color:  #ffff;
+        border: 5px solid #ffff;
+        border-radius: 20px;
+        margin-bottom:25px; 
+        box-shadow: 1px 1px 10px #dfdfdf;
 }
 
 .activite .max-card img {
