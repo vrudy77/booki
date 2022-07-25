@@ -5,7 +5,6 @@ body {
 
 main {
         display: flex;
-        flex-direction: column;
         width: 100%;
         margin: auto;
 }
@@ -24,14 +23,22 @@ ul {
 
 h1 {
         font-size: 1.90em;
+        font-weight: bold;
+	margin: 15px 0 0 0;
+	font-family: 'Raleway', sans-serif;
 }
 
 h2 {
         font-size: 1.5em;
+        font-weight: bold;
+	margin: 15px 0 0 20px;
+	font-family: 'Raleway', sans-serif;
 }
 
 h3 {
         font-size: 1.18em;
+        font-weight: bold;
+	font-family: 'Raleway', sans-serif;
 }
 
 /*                  nav          */
@@ -169,13 +176,13 @@ header h1 p {
 
 /*............Hebergement...........*/
 
+
 .Hebergements-background {
         background: rgb(214, 211, 211);
         border-radius: 10px;
-        width: 50%; 
+        width: 70%; 
         height: auto;  
-        margin: auto;
-        position: absolute;
+        margin: 0 20px 0 40px;
 }
 
 .hebergement-card {
@@ -205,14 +212,11 @@ article h2 {
         background: #F2F2F2;
         border-radius: 20px;
         display: flex;
-        width: auto; 
+        width: 30%; 
         flex-direction: column;
-        margin: auto;
+        margin: 0 40px 0 20px;
         height: auto; 
         justify-content: space-around;
-        position:relative;
-        top : 0; 
-        left: 400px;
 }
 
 .populaire-card {
@@ -247,14 +251,8 @@ article h2 {
         height: 600px;
     }
 
-.activite .max-card {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        border-radius: 25px;
-}
 
-.activite .min-card {
+.min-card {
         min-width: 280px;
         height: 140px;
         background-color:  #ffff;
@@ -262,24 +260,35 @@ article h2 {
         border-radius: 20px;
         margin-bottom:25px; 
         box-shadow: 1px 1px 10px #dfdfdf;
+        display: flex;
+        flex-direction: column;
 }
 
-.activite .max-card img {
-        width: 100%;
-        height: calc(100% - 67px);
-        object-fit: cover;
-        border-radius: 25px 25px 1px 1px;
+.max-card img {
+        min-width: 400px;
+        height: 500px;
+        background-color:  #ffff;
+        border: 5px solid #ffff;
+        border-radius: 20px;
+        margin-bottom: 40px; 
+        box-shadow: 1px 1px 10px #dfdfdf;
 }
 
 
 /*                footer             */
 
 footer {
-        display: flex;
         background: #F2F2F2;
-        color: black;
-        width: 100%;
-        margin-top: auto;
+        padding: 50px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 40px;
+        margin-right: 250px;
+}
+
+
+.pied-page {
+        width: 33%;
 }
 
 footer ul {
@@ -297,3 +306,4 @@ footer a {
         text-decoration: none;
         color: black;
 }
+
