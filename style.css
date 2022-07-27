@@ -36,9 +36,13 @@ h2 {
 }
 
 h3 {
-        font-size: 1.18em;
+        font-size: 16px;
         font-weight: bold;
 	font-family: 'Raleway', sans-serif;
+}
+
+b {
+        font-weight: bolder;
 }
 
 /*                  nav          */
@@ -112,7 +116,7 @@ header h1 p {
 .search button {
         background-color: blue;
         color: white;
-        height: 52px;
+        height: 60px;
         border: none; 
         border-radius: 0 15px 15px 0;
         padding: 14px;
@@ -185,25 +189,50 @@ header h1 p {
         margin: 0 20px 0 40px;
 }
 
+.heberg-card {
+        min-width: 200px;
+        width: 85%;
+        height: 171px;
+        background-color:  #ffff;
+        border: 4px solid #ffff;
+        border-radius: 20px;
+        box-shadow: 1px 1px 10px #dfdfdf;
+        line-height: 1.5;
+    }  
+
+
 .hebergement-card {
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-start;
+        gap: 30px;
+        padding: 30px 0 50px 0;
 }
 
-article img {
-        margin-top: -15px;
+.heberg-card img {
         width: 100%;
         height: 110px;
+        border-radius: 15px 15px 0 0;
+}
+
+#article #img {
+        margin-top: -8px;
+        width: 73%;
+        height: 110px;
         border-radius: 20px 20px 0 0;
-        text-align: center;
+        text-align: left;
         object-fit: cover;
 }
 
 article h2 {
         margin-left: 20px;
         margin-bottom: 25px;
+}
+
+.fa-star {
+        padding-top: 5px;
+}
+
 }
 
 /*                populaire            */
@@ -221,14 +250,12 @@ article h2 {
 
 .populaire-card {
     min-width: 280px;
-    height: 140px;
+    height: 156px;
     background-color:  #ffff;
     display: flex;
     flex-direction: row;
     width: auto;
     margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
     border: 3px solid #ffffff;
     border-radius: 20px;
     box-shadow: 0 4px 4px #c0c0c0;
@@ -243,16 +270,38 @@ article h2 {
 }
 
 /*                activite            */
+figure {
+        background-color: #ffff;
+box-shadow: 1px 1px 10px #dfdfdf;
+border-radius: 25px 25px 25px 25px;
+}
+
 
 .activite {
         display: flex;
         justify-content: space-between;
         margin-bottom: 60px;
-        height: 600px;
-    }
+        height: 600px
+}
 
+.min-card-one img {
+        height: 180px;
+        width: 180px;
+}
 
-.min-card {
+.min-card-one {
+        min-width: 280px;
+        height: 140px;
+        background-color:  #ffff;
+        border: 5px solid #ffff;
+        border-radius: 20px;
+        margin-bottom:25px; 
+        box-shadow: 1px 1px 10px #dfdfdf;
+        display: flex;
+        flex-direction: column;
+}
+
+#min-card {
         min-width: 280px;
         height: 140px;
         background-color:  #ffff;
@@ -307,3 +356,4 @@ footer a {
         color: black;
 }
 
+@media screen and (max-width: 992px) and (min-width: 769px)
