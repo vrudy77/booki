@@ -182,11 +182,12 @@ header h1 p {
 
 
 .Hebergements-background {
-        background: rgb(214, 211, 211);
+        background: #F2F2F2;
         border-radius: 10px;
         width: 70%; 
-        height: auto;  
+        height: auto;
         margin: 0 20px 0 40px;
+        border-radius: 25px 25px 25px 25px;
 }
 
 .heberg-card {
@@ -233,9 +234,16 @@ article h2 {
         padding-top: 5px;
 }
 
+/*                populaire            */
+
+.container-populaire {
+        background: #F2F2F2;
+        border-radius: 10px;
+        width: 70%; 
+        height: auto; 
+        margin: 0 20px 0 40px;
 }
 
-/*                populaire            */
 
 .container-populaire {
         background: #F2F2F2;
@@ -269,12 +277,26 @@ article h2 {
     line-height: 15px;
 }
 
-/*                activite            */
-figure {
-        background-color: #ffff;
-box-shadow: 1px 1px 10px #dfdfdf;
-border-radius: 25px 25px 25px 25px;
+.populaire-card img {
+     border-radius: 15px 0 0 15px;
+     width: 184px;
 }
+
+.populaire-card-exception {
+    min-width: 280px;
+    height: 156px;
+    background-color:  #ffff;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin-bottom: 20px;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px #c0c0c0;
+
+}
+
+/*                activite            */
 
 
 .activite {
@@ -285,40 +307,42 @@ border-radius: 25px 25px 25px 25px;
 }
 
 .min-card-one img {
-        height: 180px;
-        width: 180px;
+        height: 189px;
+        width: 278px;
+        border-radius: 15px 15px 0 0;
 }
 
 .min-card-one {
-        min-width: 280px;
-        height: 140px;
+        width: 278px;
+        height: 223px;
         background-color:  #ffff;
-        border: 5px solid #ffff;
         border-radius: 20px;
         margin-bottom:25px; 
-        box-shadow: 1px 1px 10px #dfdfdf;
+        box-shadow: 0 0 10px 0 #dfdfdf;
         display: flex;
         flex-direction: column;
 }
 
-#min-card {
-        min-width: 280px;
-        height: 140px;
-        background-color:  #ffff;
-        border: 5px solid #ffff;
-        border-radius: 20px;
+.min-card-two {
+        width: 278px;
+        height: 223px;
+        background-color: #ffff;
+        border-radius: 15px 15px 15px 15px;
         margin-bottom:25px; 
-        box-shadow: 1px 1px 10px #dfdfdf;
+        box-shadow: 0 0 10px 0 #dfdfdf;
         display: flex;
         flex-direction: column;
+}
+
+img {
+        border-radius: 15px 15px 0 0;
 }
 
 .max-card img {
-        min-width: 400px;
-        height: 500px;
+        width: 342px;
+        height: 481px;
         background-color:  #ffff;
-        border: 5px solid #ffff;
-        border-radius: 20px;
+        border-radius: 20px 20px 0 0;
         margin-bottom: 40px; 
         box-shadow: 1px 1px 10px #dfdfdf;
 }
@@ -355,5 +379,3 @@ footer a {
         text-decoration: none;
         color: black;
 }
-
-@media screen and (max-width: 992px) and (min-width: 769px)
