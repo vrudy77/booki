@@ -17,8 +17,6 @@ main {
 
 ul {
         list-style: none;
-        text-decoration: none;
-        flex-direction: right;
 }
 
 h1 {
@@ -131,7 +129,7 @@ header h1 p {
 }
 
 .filtres .design-filtre {
-        margin: 0 10px;
+  margin: 0 10px;
         border-radius: 30px;
         border: 2px solid var(--grey);
         display: flex;
@@ -191,14 +189,10 @@ header h1 p {
 }
 
 .heberg-card {
-        min-width: 200px;
-        width: 85%;
-        height: 171px;
         background-color:  #ffff;
-        border: 4px solid #ffff;
-        border-radius: 20px;
+        border-radius: 1rem;
+        padding: 01.5rem;
         box-shadow: 1px 1px 10px #dfdfdf;
-        line-height: 1.5;
     }  
 
 
@@ -211,9 +205,13 @@ header h1 p {
 }
 
 .heberg-card img {
-        width: 100%;
-        height: 110px;
+        height: 10rem;
         border-radius: 15px 15px 0 0;
+}
+
+.heberg-card p,
+.heberg-card h3 {
+    margin: 0.5rem;
 }
 
 #article #img {
