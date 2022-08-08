@@ -123,57 +123,85 @@ header h1 p {
 
 /*                 filtres               */
 
+.fa-solid.fa-money-bill-wave {
+  color: blue;
+  background-color: #add8e6;
+  padding: 1rem;
+  border-radius: 50%;
+  margin: -2px;
+}
+
+.fa-solid.fa-child-reaching {
+  color: blue;
+  background-color: #add8e6;
+  padding: 1rem;
+  border-radius: 50%;
+  margin: -2px}
+
+.fa-solid.fa-heart {
+  color: blue;
+  background-color: #add8e6;
+  padding: 1rem;
+  border-radius: 50%;
+  margin: -2px;
+}
+
+.fa-solid.fa-dog {
+  color: blue;
+  background-color: #add8e6;
+  padding: 1rem;
+  border-radius: 50%;
+  margin: -2px;
+}
+
 .filtres {
-        display: flex;
-        align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .filtres .design-filtre {
-  margin: 0 10px;
-        border-radius: 30px;
-        border: 2px solid var(--grey);
-        display: flex;
-        align-items: center;
-        font-weight: bold;
-        cursor: pointer;
-        transition: background-color 1s;
+  border-radius: 2rem;
+  border: 1px solid #add8e6;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 1s;
 }
 
 .filtres h2 {
-    font-weight: bold;
-    font-size: 18px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .filtres ul {
-        display: flex;
-        flex-wrap: wrap; 
-        gap: 17px;
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 17px;
 }
 
-.filtres li {
-        display: flex;
-        align-items: center;
-        border: 10px solid gray;
-        border-radius: 100px;
-        border-left: #DEEBFF;  
+#filtres li {
+  display: flex;
+  align-items: center;
+  border-radius: 100px;
+  border-left: #DEEBFF;  
 }
 
 
 .check-point {
-        display: flex;
+  display: flex;
 }
     
 .check-point .fa-circle-info {
-        color: blue;
-        border: 1px solid rgb(229, 220, 220);
-        border-radius: 100%;
-        width: 25px;
-        height: 25px;
-        font-size: 16px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 10px;
+  color: blue;
+  border: 1px solid rgb(229, 220, 220);
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
 }
 
 /*............Hebergement...........*/
