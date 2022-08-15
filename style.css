@@ -47,7 +47,7 @@ h2 {
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 0.9rem;
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
 }
@@ -84,13 +84,13 @@ nav ul {
   margin: 0;
 }
 
-nav ul li {
+nav li {
   padding: 50px 25px;
-  border-top: 4px solid transparent;
+  border-top: 2px solid transparent;
   margin: 0 20px 0 20px;
 }
 
-nav ul li:hover {
+nav li:hover {
   border-color: blue;
 }
 
@@ -157,7 +157,11 @@ header h1 p {
   margin: 0 15px 0 0;
 }
 
-.fa-solid.fa-money-bill-wave {
+.fa-money-bill-wave,
+.fa-child-reaching,
+.fa-heart,
+.fa-dog 
+{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -169,41 +173,6 @@ header h1 p {
   background-color: #DEEBFF;
 }
 
-.fa-solid.fa-child-reaching {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50px;
-  height: 50px;
-  margin-left: -4px;
-  border: 2px #DEEBFF solid;
-  border-radius: 25px;
-  background-color: #DEEBFF;
-}
-
-.fa-solid.fa-heart {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50px;
-  height: 50px;
-  margin-left: -4px;
-  border: 2px #DEEBFF solid;
-  border-radius: 25px;
-  background-color: #DEEBFF;
-}
-
-.fa-solid.fa-dog {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50px;
-  height: 50px;
-  margin-left: -4px;
-  border: 2px #DEEBFF solid;
-  border-radius: 25px;
-  background-color: #DEEBFF;
-}
 .text-filtre {
   color: #000000;
   font-size: 16px;
@@ -234,13 +203,6 @@ header h1 p {
   display: flex;
   flex-wrap: wrap; 
   gap: 17px;
-}
-
-#filtres li {
-  display: flex;
-  align-items: center;
-  border-radius: 100px;
-  border-left: #DEEBFF;  
 }
 
 .check-point {
@@ -399,12 +361,6 @@ article h2 {
 
 .fa-regular.fa-star {
   color: #c0c0c0;
-}
-
-#popular-card-text {
-  font-weight: 680;
-  line-height: 4px;
-  padding: 0 0 0 10px;
 }
 
 /*                activite            */
