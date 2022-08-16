@@ -1,9 +1,5 @@
 /*                  Resolution              */
 
-@media screen and (max-width: 992px) and (min-width: 769px) {
-
-}
-
 * {
   font-family: raleway, sans-serif;
   box-sizing: border-box;
@@ -26,7 +22,9 @@ main {
 
 .logo {
   width: auto;
-  height: 50px;
+  height: 45px;
+  margin-top: 50px;
+  margin-left: 10px;
 }
 
 ul {
@@ -56,8 +54,7 @@ b {
   font-weight: bolder;
 }
 
-a
-{
+a {
   text-decoration: none;
   color: initial;
   width: auto;
@@ -111,7 +108,7 @@ header h1 p {
 
 .search {
   display: inline-block;
-  border: 1px solid gray;
+  border: 1px solid #8080800d;
   border-radius: 15px;
   width: auto;
   margin-left: 40px;
@@ -257,13 +254,18 @@ header h1 p {
   border-top-right-radius: 20px;
 }
 
+.heberg-card figure {
+  margin-left: 0;
+}
+
 .heberg-card-text {
   font-weight: 680;
   line-height: 4px;
   padding: 0 0 0 10px;
 }
 
-.heberg-card:hover {
+.heberg-card:hover 
+.heberg-card:focus {
   cursor: pointer;
   transition: all 60ms ease-in;
   transform: scale(1.05);
@@ -271,7 +273,7 @@ header h1 p {
 }
 
 article h2 {
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 .fa-star {
@@ -464,8 +466,8 @@ footer {
   padding: 50px;
   display: flex;
   justify-content: space-between;
-  margin-left: 40px;
-  margin-right: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pied-page {
