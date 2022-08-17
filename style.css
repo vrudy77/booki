@@ -229,6 +229,8 @@ header h1 p {
   display:flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 10px 260px 13px 13px;
+  margin: 12px 76px 12px 12px;
 }
 
 .heberg-card {
