@@ -32,7 +32,7 @@ ul {
 }
 
 h1 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   margin: 15px 0 0 40px;
 }
@@ -62,7 +62,7 @@ a {
 
 p {
   font-weight: 200;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 /*                  nav          */
@@ -123,15 +123,7 @@ header h1 p {
   background-color: #F2F2F2;
   border-radius: 14px 0 0 15px;
 }
-    
-.search input {
-  outline: none;
-  height: 52px;
-  margin-left: -5px;
-  border: none;
-  padding: 10px;
-}
-    
+
 .search button {
   background-color: #0065fc;
   color: white;
@@ -140,7 +132,7 @@ header h1 p {
   border-radius: 0 15px 15px 0;
   padding: 14px;
   cursor: pointer;
-}    
+} 
 
 /*                 filtres               */
 
@@ -173,7 +165,6 @@ header h1 p {
 .text-filtre {
   color: #000000;
   font-size: 16px;
-  font-weight: 500;
   padding: 0 20px 0 15px;
 }
 
@@ -194,6 +185,7 @@ header h1 p {
 .filtres h2 {
   font-weight: bold;
   font-size: 18px;
+  margin-top: 0;
 }
 
 .filtres ul {
@@ -417,7 +409,7 @@ img {
 }
 
 .max-card {
-  width: 18%;
+  width: auto;
   background-color:  #ffff;
   border-radius: 20px 20px 20px 20px;
   margin-bottom: 40px; 
