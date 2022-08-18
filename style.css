@@ -1,4 +1,3 @@
-/*                  Resolution              */
 
 * {
   font-family: raleway, sans-serif;
@@ -182,6 +181,10 @@ header h1 p {
   transition: background-color 1s;
 }
 
+button {
+  background-color: white;
+}
+
 .filtres h2 {
   font-weight: bold;
   font-size: 18px;
@@ -218,9 +221,9 @@ header h1 p {
 
 
 .Hebergements-background {
-  background: #F2F2F2;
-  width: 70%; 
-  height: auto;
+  background-color: #F2F2F2;
+  width: 1332px; 
+  height: 750px;
   margin: 0 20px 0 40px;
   border-radius: 25px 25px 25px 25px;
 }
@@ -229,8 +232,8 @@ header h1 p {
   display:flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 10px 260px 13px 13px;
-  margin: 12px 76px 12px 12px;
+  padding: 0 31px 0 80px;
+  gap: 20px;
 }
 
 .heberg-card {
@@ -242,10 +245,11 @@ header h1 p {
 }
 
 .heberg-card > img {
-  width: 260px;
-  height: 105px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  max-height: 180px;
+  min-width: 320px;
+  object-fit: cover;
 }
 
 .heberg-card figure {
@@ -258,7 +262,7 @@ header h1 p {
   padding: 0 0 0 10px;
 }
 
-.heberg-card:hover 
+.heberg-card:hover, 
 .heberg-card:focus {
   cursor: pointer;
   transition: all 60ms ease-in;
@@ -308,10 +312,10 @@ article h2 {
   background: #F2F2F2;
   border-radius: 20px;
   display: flex;
-  width: 30%; 
+  width: 486px; 
+  height: 746px; 
   flex-direction: column;
   margin: 0 40px 0 20px;
-  height: auto; 
   justify-content: space-around;
 }
 
@@ -424,7 +428,6 @@ img {
   height: 481px;
   background-color:  #ffff;
   border-radius: 20px 20px 0 0;
-  margin-bottom: 40px; 
   box-shadow: 1px 1px 10px #dfdfdf;
 }
 
