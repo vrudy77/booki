@@ -112,7 +112,10 @@ header h1 p {
   width: auto;
   margin-left: 40px;
 }
-    
+
+input {
+  border: none;
+}
 .search .fa-location-dot {
   display: inline-block;
   padding: 18px;
@@ -222,7 +225,7 @@ button {
 
 .Hebergements-background {
   background-color: #F2F2F2;
-  width: 1332px; 
+  width: 1170px; 
   height: 750px;
   margin: 0 20px 0 40px;
   border-radius: 25px 25px 25px 25px;
@@ -232,7 +235,6 @@ button {
   display:flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 0 31px 0 80px;
   gap: 20px;
 }
 
@@ -326,7 +328,7 @@ article h2 {
   display: flex;
   flex-direction: row;
   width: auto;
-  margin-bottom: 20px;
+  margin-bottom: 70px;
   border: 3px solid #ffffff;
   border-radius: 20px;
   box-shadow: 0 4px 4px #c0c0c0;
@@ -365,97 +367,61 @@ article h2 {
 
 /*                activite            */
 
-
 .activite {
   display: flex;
-  flex-wrap: wrap;
-  margin-top: 30px;
-}
-
-figcaption {
-  padding: 6%;
-}
-
-.activite img {
-  width: 100%;
-  border-radius: 17px 16px 0px 0px;
-  box-shadow: 1px 11px 10px #dfdfdf;
-}
-
-.min-card-one img {
-  height: 189px;
-  width: 278px;
-  border-radius: 15px 15px 0 0;
-}
-
-.min-card-one {
-  width: 278px;
-  height: 223px;
-  background-color:  #ffff;
-  border-radius: 20px;
-  margin-bottom:25px; 
-  box-shadow: 0 0 10px 0 #dfdfdf;
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
-}
-
-.min-card-two {
-  width: 278px;
-  height: 223px;
-  background-color: #ffff;
-  border-radius: 15px 15px 15px 15px;
-  margin-bottom:25px; 
-  box-shadow: 0 0 10px 0 #dfdfdf;
-  cursor: pointer;
-}
-
-img {
-  border-radius: 15px 15px 0 0;
-}
-
-.max-card {
-  width: auto;
-  background-color:  #ffff;
-  border-radius: 20px 20px 20px 20px;
-  margin-bottom: 40px; 
-  box-shadow: 1px 1px 10px #dfdfdf;
-  cursor: pointer;
-}
-
-.max-card img {
-  width: 342px;
-  height: 481px;
-  background-color:  #ffff;
-  border-radius: 20px 20px 0 0;
-  box-shadow: 1px 1px 10px #dfdfdf;
-}
-
-.group-min-card-two {
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
-  margin: 4px 10px 14px -25px;
-  width: 16%;
-  cursor: pointer;
+  height: 600px;
 }
 
-.group-min-card-one {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 4px 10px 14px -25px;
-  width: 16%;
-  cursor: pointer;
+.activite .max-card img {
+  width: 390px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.min-card-1 img {
+  width: 389px;
+  height: 266px;
+  object-fit: cover;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.min-card-2 img {
+  width: 389px;
+  height: 157px;
+  object-fit: cover;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.min-card-3 img  {
+  width: 351px;
+  height: 228px;
+  object-fit: cover;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.min-card-4 img  {
+  width: 351px;
+  height: 196px;
+  object-fit: cover;
+  border-radius: 25px 25px 0px 0px;
 }
 
 .title-activity {
-  line-height: 14px;
+  padding: 21px;
   margin: 0;
-  padding: 10px;
-  font-weight: 680;
+  font-weight: bold;
 }
 
+.min-card-1,
+.min-card-2,
+.min-card-3,
+.min-card-4,
+.max-card {
+  box-shadow: 0px 0px 10px 0px #E0E0E0;
+  border-radius: 25px;
+}
 /*                footer             */
 
 footer {
