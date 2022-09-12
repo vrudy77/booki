@@ -6,7 +6,7 @@
 
 
 body {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   color:#000000;
   background-color: #FFFFFF; 
@@ -50,7 +50,7 @@ h3 {
 }
 
 b {
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 a {
@@ -72,7 +72,7 @@ nav {
   flex-direction: row;
   flex-wrap: wrap;
   margin-left: 40px;
-  margin-right: 166px;
+  margin-right: 40px;
 }
 
 nav ul {
@@ -235,8 +235,8 @@ button {
 
 .Hebergements-background {
   background-color: #F2F2F2;
-  width: 1170px; 
-  height: 750px;
+  width: auto; 
+  height: 780px;
   margin: 0 20px 0 40px;
   border-radius: 25px 25px 25px 25px;
   margin-bottom: 35px;
@@ -318,7 +318,7 @@ article h2 {
 .popular-card-star-1,
 .popular-card-star-3 {
   margin-left: 0;
-  margin-top: 40px;
+  margin-top: 27px;
 }
 
 .popular-card-star-2 {
@@ -350,8 +350,8 @@ article h2 {
   background: #F2F2F2;
   border-radius: 20px;
   display: flex;
-  width: 486px; 
-  height: 746px; 
+  width: 755px; 
+  height: 780px; 
   flex-direction: column;
   margin: 0 40px 0 20px;
   justify-content: space-around;
@@ -410,7 +410,7 @@ article h2 {
   display: flex;
   justify-content: space-between;
   height: 600px;
-  margin:25px 170px 60px 40px;
+  margin:25px 40px 60px 40px;
 }
 
 .activite .group-min-card-one {
@@ -435,35 +435,35 @@ article h2 {
 }
 
 .activite .max-card img {
-  width: 390px;
+  width: 425px;
   height: 536px;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
 }
 
 .min-card-1 img {
-  width: 456px;
-  height: 266px;
+  width: 425px;
+  height: 255px;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
 }
 
 .min-card-2 img {
-  width: 455px;
-  height: 171px;
+  width: 425px;
+  height: 170px;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
 }
 
 .min-card-3 img  {
-  width: 351px;
-  height: 228px;
+  width: 400px;
+  height: 215px;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
 }
 
 .min-card-4 img  {
-  width: 351px;
+  width: 400px;
   height: 209px;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
@@ -501,18 +501,22 @@ footer {
   display: flex;
   justify-content: space-between;
   margin-left: 0;
-  margin-right: 126px;
 }
 
 .pied-page {
   width: 33%;
 }
 
+.Size-title-footer {
+  font-size: 18px;
+  margin-left: 40px;
+}
+
 footer ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  line-height: 25px;
+  line-height: 30px;
 }
 
 footer li {
