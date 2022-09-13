@@ -23,7 +23,7 @@ main {
   width: auto;
   height: 45px;
   margin-top: 50px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 ul {
@@ -33,13 +33,13 @@ ul {
 h1 {
   font-size: 20px;
   font-weight: 600;
-  margin: 15px 0 0 40px;
+  margin: 15px 0 0 60px;
 }
 
 h2 {
   font-size: 1.5em;
   font-weight: bold;
-  margin: 20px 0 0 40px;
+  margin: 20px 0 0 60px;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -104,7 +104,7 @@ header h1 p {
 }
 
 .header-p {
-  margin-left: 40px;
+  margin-left: 60px;
 }
 
 /*         barre de recherche         */
@@ -114,7 +114,7 @@ header h1 p {
   border: 1px solid #8080800d;
   border-radius: 15px;
   width: auto;
-  margin-left: 40px;
+  margin-left: 60px;
 }
 
 input {
@@ -215,7 +215,7 @@ button {
   flex-direction: row;
   align-items: center;
   margin-top:16px;
-  margin-left:38px;
+  margin-left:60px;
 }
 
 .check-point .fa-circle-info {
@@ -237,7 +237,7 @@ button {
   background-color: #F2F2F2;
   width: auto; 
   height: 780px;
-  margin: 0 20px 0 40px;
+  margin: 0 20px 0 60px;
   border-radius: 25px 25px 25px 25px;
   margin-bottom: 35px;
 }
@@ -353,7 +353,7 @@ article h2 {
   width: 755px; 
   height: 780px; 
   flex-direction: column;
-  margin: 0 40px 0 20px;
+  margin: 0 60px 0 20px;
   justify-content: space-around;
 }
 
@@ -410,7 +410,7 @@ article h2 {
   display: flex;
   justify-content: space-between;
   height: 600px;
-  margin:25px 40px 60px 40px;
+  margin:25px 60px 60px 60px;
 }
 
 .activite .group-min-card-one {
@@ -509,7 +509,7 @@ footer {
 
 .Size-title-footer {
   font-size: 18px;
-  margin-left: 40px;
+  margin-left: 60px;
 }
 
 footer ul {
@@ -517,6 +517,7 @@ footer ul {
   display: flex;
   flex-direction: column;
   line-height: 30px;
+  padding-left: 60px;
 }
 
 footer li {
