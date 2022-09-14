@@ -536,5 +536,38 @@ footer a {
 body {
   width: fit-content;
 }
+
+.logo {
+  height: 80px;
+  margin-top: 40px;
 }
 
+h1 {
+  font-size: 30px;
+}
+
+nav a {
+  font-size: 25px;
+}
+
+.header-p {
+  font-size: 25px;
+}
+
+.check-point {
+  font-size: 25px;
+}
+
+.filtres h2 {
+  font-size: 25px;
+}
+
+.text-filtre {
+  font-size: 25px;
+}
+
+.container-populaire {
+  width: 867px;
+}
+
+}
