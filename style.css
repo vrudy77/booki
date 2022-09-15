@@ -8,9 +8,9 @@
 body {
   font-size: 16px;
   font-weight: 300;
-  color:#000000;
-  background-color: #FFFFFF; 
-  margin:0px;
+  color:#000;
+  background-color: #FFF; 
+  margin:0;
 }
 
 main {
@@ -120,6 +120,7 @@ header h1 p {
 input {
   border: none;
 }
+
 .search .fa-location-dot {
   display: inline-block;
   padding: 18px;
@@ -175,7 +176,7 @@ input {
 }
 
 .text-filtre {
-  color: #000000;
+  color: #000;
   font-size: 16px;
   padding: 0 20px 0 15px;
 }
@@ -360,12 +361,12 @@ article h2 {
 .populaire-card {
   min-width: 280px;
   height: 156px;
-  background-color:  #ffff;
+  background-color:  #fff;
   display: flex;
   flex-direction: row;
   width: auto;
   margin-bottom: 70px;
-  border: 3px solid #ffffff;
+  border: 3px solid #fff;
   border-radius: 20px;
   box-shadow: 0 4px 4px #c0c0c0;
 }
@@ -438,35 +439,35 @@ article h2 {
   width: 425px;
   height: 536px;
   object-fit: cover;
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 20px 20px 0 0;
 }
 
 .min-card-1 img {
   width: 425px;
   height: 255px;
   object-fit: cover;
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 20px 20px 0 0;
 }
 
 .min-card-2 img {
   width: 425px;
   height: 170px;
   object-fit: cover;
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 20px 20px 0 0;
 }
 
 .min-card-3 img  {
   width: 400px;
   height: 215px;
   object-fit: cover;
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 20px 20px 0 0;
 }
 
 .min-card-4 img  {
   width: 400px;
   height: 209px;
   object-fit: cover;
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 20px 20px 0 0;
 }
 
 .title-activity {
@@ -489,7 +490,7 @@ article h2 {
 .min-card-3,
 .min-card-4,
 .max-card {
-  box-shadow: 0px 0px 10px 0px #E0E0E0;
+  box-shadow: 0 0 10px 0 #E0E0E0;
   border-radius: 25px;
   cursor: pointer;
 }
@@ -531,43 +532,136 @@ footer a {
 
 /*               tablette            */
 
-@media screen and (min-width: 767px) 
+@media screen and (max-width: 767px) 
 {
 body {
-  width: fit-content;
+  width: auto;
 }
 
 .logo {
-  height: 80px;
-  margin-top: 40px;
+  height: 50px;
+  margin-top: 30px;
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 nav a {
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .header-p {
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .check-point {
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .filtres h2 {
-  font-size: 25px;
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.filtres {
+  display: block;
+  margin: 20px;
 }
 
 .text-filtre {
-  font-size: 25px;
+  font-size: 20px;
+}
+
+/* populaire */
+
+main {
+  display: block;
+  width: 100%;
+  margin: auto;
 }
 
 .container-populaire {
-  width: 867px;
+  margin-right: 40px;
+  margin-left: 60px;
+}
+
+.populaire-card {
+  margin-bottom: 0;
+}
+
+.hebergement-card {
+display: block;
+}
+
+.hebergement-card,
+.Hebergements-background,
+.container-populaire {
+  width: auto;
+  height: auto;
+}
+
+.Hebergements-background {
+  background-color: #F2F2F2;
+  margin: 0 20px 30px 60px;
+  border-radius: 25px 25px 25px 25px;
+}
+
+.heberg-card > img {
+  display: block;
+  flex-direction: column;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  max-height: 180px;
+  min-width: 576px;
+}
+
+.activite {
+  display: block;
+  margin: 25px 60px 60px 60px;
+  height: auto;
+}
+
+.min-card-1 img {
+  width: 646px;
+  height: 230px;
+  border-radius: 20px 20px 0 0;
+}
+
+.min-card-2 img {
+  width: 646px;
+  height: 230px;
+  border-radius: 20px 20px 0 0;
+}
+
+.min-card-3 img {
+  width: 646px;
+  height: 230px;
+  border-radius: 20px 20px 0 0;
+}
+
+.min-card-4 img {
+  width: 646px;
+  height: 230px;
+  border-radius: 20px 20px 0 0;
+}
+
+.activite .max-card img {
+  width: 646px;
+  height: 230px;
+  border-radius: 20px 20px 0 0;
+}
+
+.min-card-1, .min-card-2, .min-card-3, .min-card-4, .max-card {
+  margin-right: 0;
+}
+
+footer {
+  display: block;
+}
+
+.pied-page {
+  width: 40%;
 }
 
 }
