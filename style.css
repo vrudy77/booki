@@ -263,7 +263,6 @@ button {
   border-top-right-radius: 15px;
   max-height: 180px;
   min-width: 320px;
-  object-fit: cover;
 }
 
 .heberg-card figure {
@@ -327,7 +326,6 @@ article h2 {
   margin-top: 25px;
 }
 
-
 .popular-title {
   display: flex;
   justify-content: space-between;
@@ -337,14 +335,6 @@ article h2 {
 .popular-title .fa-solid.fa-star {
   color: black;
   margin-right: 40px;
-}
-
-.container-populaire {
-  background: #F2F2F2;
-  border-radius: 10px;
-  width: 70%; 
-  height: auto; 
-  margin: 0 20px 0 40px;
 }
 
 .container-populaire {
@@ -387,12 +377,12 @@ article h2 {
 .populaire-card-exception {
   min-width: 280px;
   height: 156px;
-  background-color:  #ffff;
+  background-color:  #fff;
   display: flex;
   flex-direction: row;
   width: auto;
   margin-bottom: 20px;
-  border: 3px solid #ffffff;
+  border: 3px solid #fff;
   border-radius: 20px;
   box-shadow: 0 4px 4px #c0c0c0;
 }
@@ -414,13 +404,7 @@ article h2 {
   margin:25px 60px 60px 60px;
 }
 
-.activite .group-min-card-one {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border-radius: 25px;
-}
-
+.activite .group-min-card-one,
 .activite .group-min-card-two {
   display: flex;
   flex-direction: column;
@@ -532,7 +516,7 @@ footer a {
 
 /*               Mobile            */
 
-@media all and (min-width: 200px) and (max-width: 767px) 
+@media all and (min-width: 300px) and (max-width: 767px) 
 {
 body {
   width: auto;
@@ -605,14 +589,14 @@ main {
 .hebergement-card {
   display: block;
   }
-  
-  .hebergement-card,
-  .Hebergements-background,
-  .container-populaire {
+
+.hebergement-card,
+.Hebergements-background,
+.container-populaire {
     width: auto;
     height: auto;
-  }
-  
+}
+
   .Hebergements-background {
     background-color: #F2F2F2;
     margin: 0 20px 30px 60px;
@@ -710,61 +694,91 @@ main {
 }
 
 .container-populaire {
-  margin-right: 40px;
-  margin-left: 60px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .populaire-card {
   margin-bottom: 0;
 }
 
+.popular-title {
+  margin-left: 40px;
+}
+
+.populaire-list{
+  height: 560px;
+}
+
 /*               Hebergement à Marseille            */
 
-.hebergement-card {
-display: block;
+.Hebergements-background {
+  background-color: unset;
+  margin: 0;
 }
+
+.hebergement-card {
+  display: block;
+  }
 
 .hebergement-card,
 .Hebergements-background,
 .container-populaire {
-  width: auto;
-  height: auto;
+    width: auto;
+    height: auto;
 }
 
-.Hebergements-background {
-  background-color: #F2F2F2;
-  margin: 0 20px 30px 60px;
-  border-radius: 25px 25px 25px 25px;
-}
-
+.Hebergements-background, 
 .heberg-card img {
   box-sizing: content-box;
   width: 100%;
   border-radius: 20px 20px 0 0;
+  object-fit: cover;
 }
+
+.heberg-card {
+  border: 5px #FFF solid;
+  border-radius: 20px;
+  Background-color: #FFF;
+  box-shadow: 0 0 20px #d3d3d3;
+  margin: 10px;
+}
+
+/*               Activités à Marseille            */
 
 .activite {
   display: flex;
   flex-wrap: wrap;
-  margin: 25px 60px 60px 60px;
+  margin: 25px 50px 60px 50px;
   height: auto;
-  gap: 13px;
+  gap: 15px;
 }
+
+.activite .group-min-card-one,
+.activite .group-min-card-two {
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+}
+
 
 .activite .max-card img,
 .activite .min-card-1 img,
 .activite .min-card-2 img,
 .activite .min-card-3 img,
 .activite .min-card-4 img {
-  box-sizing: content-box;
-  width: 100%;
+  width: 685px;
   height: 230px;
   border-radius: 20px 20px 0 0;
-  object-fit: cover;
 }
 
 .min-card-1, .min-card-2, .min-card-3, .min-card-4, .max-card {
   margin-right: 0;
+}
+
+.min-card-4,
+.min-card-2{
+  margin-top: 15px;
 }
 
 /*               footer            */
@@ -774,6 +788,6 @@ footer {
 }
 
 .pied-page {
-  width: 40%;
+  width: auto;
 }
 }
