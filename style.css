@@ -390,10 +390,6 @@ article h2 {
   color: #c0c0c0;
 }
 
-#popular-card-text .fa-solid {
-  margin-top: 26px;
-}
-
 /*                activite            */
 
 .activite {
@@ -669,8 +665,10 @@ body {
 }
 
 .logo {
-  margin:auto;
-  height: 75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70px;
 }
 
 h1 {
@@ -678,29 +676,26 @@ h1 {
   margin-left: 40px;
 }
 
+nav {
+  display: unset;
+}
+
 nav a {
   font-size: 1rem;
 }
 
 nav ul li {
+  padding-left: 150px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-right: 150px;
   border-top-width: 0;
-  margin-bottom: 0;
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
-  padding-left: 200px;
-  padding-right: 200px;
-}
-
-nav ul li {
-padding-left: 150px;
-margin-left: 0;
-margin-right: 0;
-padding-right: 150px;
 }
 
 nav li {
   padding: 50px 25px;
-  border-top: 2px solid transparent;
+  padding: 50px 25px;
+  border-bottom: 2px solid #e3e3e3;
   margin: 0 20px 0 20px;
 }
 
@@ -808,7 +803,6 @@ nav ul {
   gap: 13px;
   }
 
-.activite .max-card img,
 .activite .min-card-1 img,
 .activite .min-card-2 img,
 .activite .min-card-3 img,
@@ -816,6 +810,12 @@ nav ul {
   box-sizing: content-box;
   height: 230px;
   border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+
+.activite .max-card > img {
+  max-height: 230px;
+  min-width: 100px;
   object-fit: cover;
 }
 
