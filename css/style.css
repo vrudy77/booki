@@ -6,8 +6,9 @@ body {
   font-size: 1rem;
   font-weight: 300;
   color:#000;
-  background-color: #FFF; 
-  margin:0;
+  background-color: #FFF;
+  max-width: 1920px;
+  margin:auto;
 }
 
 main {
@@ -233,17 +234,18 @@ button {
 
 .Hebergements-background {
   background-color: #F2F2F2;
-  width: auto; 
-  height: 780px;
+  width: 70%; 
+  height: 630px;
   margin: 0 20px 0 60px;
-  border-radius: 25px 25px 25px 25px;
+  border-radius: 25px;
   margin-bottom: 35px;
 }
 
 .hebergement-card {
   display:flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 20px;
 }
 
@@ -252,14 +254,15 @@ button {
   border-radius: 20px;
   Background-color: #FFF;
   box-shadow: 0 0 20px #d3d3d3;
-  margin: 10px;
+  margin: 0;
 }
 
-.heberg-card > img {
+.heberg-card img {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  max-height: 180px;
-  min-width: 320px;
+  width: 280px;
+  height: 110px;
+  object-fit: cover;
 }
 
 .heberg-card figure {
@@ -280,7 +283,7 @@ button {
 }
 
 article h2 {
-  margin-left: 50px;
+  margin-left: 60px;
 }
 
 .fa-star {
@@ -315,11 +318,13 @@ article h2 {
 .popular-card-star-3 {
   margin-left: 0;
   margin-top: 27px;
+  margin-right: 0;
 }
 
 .popular-card-star-2 {
   margin-left: 0;
   margin-top: 25px;
+  margin-right: 0;
 }
 
 .popular-title {
@@ -338,7 +343,7 @@ article h2 {
   border-radius: 20px;
   display: flex;
   width: 775px; 
-  height: 780px; 
+  height: 630px; 
   flex-direction: column;
   margin: 0 60px 0 20px;
   justify-content: space-around;
@@ -351,7 +356,7 @@ article h2 {
   display: flex;
   flex-direction: row;
   width: auto;
-  margin-bottom: 70px;
+  margin: 20px;
   border: 3px solid #fff;
   border-radius: 20px;
   box-shadow: 0 4px 4px #c0c0c0;
@@ -367,7 +372,9 @@ article h2 {
 
 .populaire-card img {
   border-radius: 15px 0 0 15px;
-  width: 184px;
+  width: 40%;
+  height: 155px;
+  object-fit: cover;
 }
 
 .populaire-card-exception {
