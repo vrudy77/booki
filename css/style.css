@@ -1,3 +1,4 @@
+
 * {
   font-family: Raleway, sans-serif;
 }
@@ -7,6 +8,7 @@ body {
   font-weight: 300;
   color:#000;
   background-color: #FFF;
+  max-width: 1920px;
 }
 
 #main {
@@ -270,8 +272,8 @@ background-color: white;
 
 .heberg-card img {
   object-fit: cover;
-  height: 140px;
-  min-width: 250px;
+  height: 110px;
+  min-width: 228px;
   line-height: 15px;
   border-radius: 20px 20px 0 0;
 }
@@ -346,7 +348,7 @@ background-color: white;
   background: #F2F2F2;
   border-radius: 20px;
   display: flex;
-  width: 775px; 
+  width: 640px; 
   height: 630px; 
   flex-direction: column;
   margin: 0 60px 0 20px;
@@ -403,7 +405,7 @@ background-color: white;
 .activite {
   display: flex;
   justify-content: space-between;
-  height: 600px;
+  height: 550px;
   margin:25px 60px 60px 60px;
   gap: 25px;
 }
@@ -414,6 +416,7 @@ background-color: white;
   flex-direction: column;
   justify-content: space-between;
   border-radius: 25px;
+  gap: 25px;
 }
 
 .activite .max-card {
@@ -432,14 +435,14 @@ background-color: white;
 }
 
 [class*="min-card"] img {
-  width: 100%;
-  max-width: 341px;
+  width: 341px;
+  max-width: 100%;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
 }
 
 .min-card-1 img {
-  height: 255px;
+  height: 200px;
 }
 
 .min-card-2 img {
@@ -447,18 +450,18 @@ background-color: white;
 }
 
 .min-card-3 img  {
-  height: 215px;
+  height: 190px;
 }
 
 .min-card-4 img  {
-  height: 209px;
+  height: 180px;
 }
 
 .title-activity {
   padding: 21px;
   margin: 0;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 0.7rem;
 }
 
 .min-card-1,
@@ -516,7 +519,7 @@ footer a {
 
 /*               Tablette            */
 
-@media screen and (max-width: 991px)
+@media (min-width: 768px) and (max-width: 991px)
 
 {
 body {
@@ -567,6 +570,7 @@ main {
 }
 
 .container-populaire {
+  order:1;
   margin-right: 50px;
   margin-left: 50px;
 }
@@ -586,6 +590,7 @@ main {
 /*               Hebergement            */
 
 .container-hebergement {
+  order: 2;
   background-color: unset;
   margin: 0;
 }
@@ -776,6 +781,13 @@ nav ul {
 
 .populaire-card {
   margin-bottom: 0;
+}
+
+.populaire-card img {
+  border-radius: 15px 0 0 15px;
+  width: 50%;
+  height: 155px;
+  object-fit: cover;
 }
 
 /*                  Hebergement                */
