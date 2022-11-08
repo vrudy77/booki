@@ -11,7 +11,7 @@ body {
   max-width: 1920px;
 }
 
-#main {
+main {
   display: flex;
   width: 100%;
   margin: auto;
@@ -264,10 +264,18 @@ button {
   justify-content: space-around;
 }
 
-.hebergement-card .heberg-card {
+#hebergement-card #heberg-card {
 border: 6px solid white;
 border-radius: 30px;
 background-color: white;
+}
+
+.heberg-card {
+  border: 3px solid #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 4px #c0c0c0;
+  line-height: 10px;
+  margin-top: 25px;
 }
 
 .heberg-card img {
@@ -403,11 +411,11 @@ background-color: white;
 
 /*                activite            */
 
-.activite {
+.container-activite {
   display: flex;
   justify-content: space-between;
   height: 550px;
-  margin:25px 60px 60px 60px;
+  margin: 25px 60px 60px 60px;
   gap: 25px;
 }
 
@@ -582,12 +590,10 @@ h3 {
 
 .container-populaire {
   order:1;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 0 50px 0 50px;
 }
 
 .populaire-card {
-  margin-bottom: 0;
   margin: 0 5px 0 5px;
   min-width: 31%;
   height: 155px;
@@ -597,7 +603,7 @@ h3 {
   margin-left: 40px;
 }
 
-.populaire-list{
+.populaire-list {
   display: flex;
   height: 164px;
 }
@@ -650,25 +656,25 @@ h3 {
 
 /*               Activités            */
 
-.activite {
+.container-activite {
   display: flex;
   margin: 25px 50px 60px 50px;
   height: auto;
   gap: 15px;
 }
 
-.activite .group-min-card-one,
-.activite .group-min-card-two {
+.container-activite .group-min-card-one,
+.container-activite .group-min-card-two {
   display: flex;
   flex-direction: column;
   border-radius: 25px;
 }
 
-.activite .max-card img,
-.activite .min-card-1 img,
-.activite .min-card-2 img,
-.activite .min-card-3 img,
-.activite .min-card-4 img {
+.container-activite .max-card img,
+.container-activite .min-card-1 img,
+.container-activite .min-card-2 img,
+.container-activite .min-card-3 img,
+.container-activite .min-card-4 img {
   width: 685px;
   border-radius: 20px 20px 0 0;
 }
@@ -682,7 +688,7 @@ h3 {
   margin-top: 15px;
 }
 
-.activite .max-card img {
+.container-activite .max-card img {
   max-width: 100%;
   height: 475px;
   object-fit: cover;
@@ -864,7 +870,7 @@ nav ul {
 
 /*               Activité            */
 
-.activite {
+.container-activite {
   display: flex;
   flex-wrap: wrap;
   margin: 25px 60px 60px 60px;
@@ -872,16 +878,16 @@ nav ul {
   gap: 13px;
   }
 
-.activite .max-card img, 
-.activite .min-card-2 img,
-.activite .min-card-3 img,
-.activite .min-card-4 img {
+.container-activite .max-card img, 
+.container-activite .min-card-2 img,
+.container-activite .min-card-3 img,
+.container-activite .min-card-4 img {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
 
-.activite .min-card-1 img {
+.container-activite .min-card-1 img {
   width: 100%;
   height: 200px;
   object-fit: cover;
