@@ -42,7 +42,7 @@ h2 {
 }
 
 h3 {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
 }
@@ -249,8 +249,9 @@ button {
 .heberg-card {
   margin: 0;
 }
+
 .container-hebergement {
-  max-width: 60%;
+  height: 640px;
   background-color: #f2f2f2;
   border-radius: 30px;
   margin-left: 60px;
@@ -264,7 +265,7 @@ button {
   justify-content: space-around;
 }
 
-#hebergement-card #heberg-card {
+.hebergement-card .heberg-card {
 border: 6px solid white;
 border-radius: 30px;
 background-color: white;
@@ -278,17 +279,21 @@ background-color: white;
   margin-top: 25px;
 }
 
+.hebergement-card a {
+  width: 27%;
+}
+
+.hebergement-card a figure {
+  object-fit: cover;
+  width: 100%;
+}
+
 .heberg-card img {
   object-fit: cover;
   height: 110px;
-  min-width: 100%;
-  width: 270px;
+  width: 100%;
   line-height: 15px;
   border-radius: 20px 20px 0 0;
-}
-
-#lien-hebergement {
-  margin: 50px 0 0 55px;
 }
 
 .fa-star {
@@ -357,8 +362,7 @@ background-color: white;
   background: #F2F2F2;
   border-radius: 20px;
   display: flex;
-  width: 640px; 
-  height: 630px; 
+  height: 640px; 
   flex-direction: column;
   margin: 0 60px 0 20px;
   justify-content: space-around;
@@ -648,8 +652,7 @@ h3 {
 .heberg-card img {
   object-fit: cover;
   height: 110px;
-  width: 168px;
-  max-width: 100%;
+  width: 100%;
   line-height: 15px;
   border-radius: 20px 20px 0 0;
 }
