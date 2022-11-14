@@ -272,10 +272,7 @@ background-color: white;
 }
 
 .heberg-card {
-  border: 3px solid #ffffff;
-  border-radius: 20px;
   box-shadow: 0 4px 4px #c0c0c0;
-  line-height: 10px;
   margin-top: 25px;
 }
 
@@ -836,6 +833,10 @@ nav ul {
 
 /*                  Hebergement                */
 
+.hebergement-card a {
+  width: 100%;
+}
+
 .container-hebergement-populaire {
   display: flex;
   flex-direction: column;
@@ -857,11 +858,11 @@ nav ul {
   border-radius: 20px 20px 0 0;
 }
 
-.heberg-card > img {
-  max-height: 120px;
-  min-width: 134px;
-  object-fit: cover;
+.hebergement-card a {
+  width: 100%;
 }
+
+
 
 .heberg-card {
   margin: 0;
