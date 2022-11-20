@@ -251,7 +251,6 @@ button {
 }
 
 .container-hebergement {
-  height: 640px;
   background-color: #f2f2f2;
   border-radius: 30px;
   margin-left: 60px;
@@ -768,7 +767,6 @@ nav ul {
   border-radius: 16px;
   font-weight: bold;
   padding-top: 14px;
-  margin-left: 10px;
 }
 
 .recherche {
