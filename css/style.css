@@ -1,5 +1,5 @@
 
-* {
+*{
   font-family: 'Raleway', sans-serif;
 }
 
@@ -84,13 +84,13 @@ nav li {
   margin: 0 20px 0 20px;
 }
 
-nav li:hover,
-nav li:focus {
+nav a:hover,
+nav a:focus {
   border-color: blue;
 }
 
-nav li:hover a,
-nav li:focus a {
+nav a:hover,
+nav a:focus {
   color: blue;
 }
 
@@ -135,7 +135,7 @@ header h1 p {
 }
 
 .target-research {
-  border: none;
+  border: solid 1px lightgray;
   padding-left: 10px;
   cursor: pointer;
 }
@@ -335,13 +335,13 @@ background-color: white;
 .popular-card-star-1,
 .popular-card-star-3 {
   margin-left: 0;
-  margin-top: 27px;
+  margin-top: 50px;
   margin-right: 0;
 }
 
 .popular-card-star-2 {
   margin-left: 0;
-  margin-top: 25px;
+  margin-top: 40px;
   margin-right: 0;
 }
 
@@ -557,6 +557,11 @@ nav a {
   font-size: 0.9rem;
 }
 
+.design-filtre {
+  height: 40px;
+  margin: 0 5px 0 0;
+}
+
 .filtres h2 {
   font-size: 2rem;
   margin-left: 40px;
@@ -568,7 +573,17 @@ nav a {
 }
 
 .text-filtre {
-  font-size: 1.5rem;
+  font-size: 1rem;
+}
+
+.fa-money-bill-wave,
+.fa-child-reaching,
+.fa-heart,
+.fa-dog 
+{
+width: 35px;
+height: 34px;
+margin-left: -4px;
 }
 
 .container-hebergement-populaire {
@@ -592,7 +607,7 @@ h3 {
 
 .container-populaire {
   order:1;
-  margin-right: 0 50px 0 50px;
+  margin: 0 50px 0 50px;
 }
 
 .populaire-card {
